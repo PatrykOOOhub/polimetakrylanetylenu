@@ -997,9 +997,10 @@ a:hover {
 .margin_top90 {
     margin-top: 90px;
 }
-.product-card img {
-    width: 100%; /* Dopasowanie szerokości obrazów do kontenera */
-    height: 200px; /* Stała wysokość obrazów */
-    object-fit: cover; /* Przycięcie obrazów, aby zachować proporcje */
-    border-radius: 5px; /* Opcjonalne zaokrąglenie narożników */
+.image {
+    width: 350px; /* Szerokość obrazu */
+    height: 350px; /* Wysokość obrazu */
+    object-fit: cover; /* Przycięcie i dopasowanie obrazu */
+    display: block;
+    margin: 0 auto; /* Opcjonalne wyśrodkowanie */
 }
