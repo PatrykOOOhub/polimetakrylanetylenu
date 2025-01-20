@@ -997,10 +997,31 @@ a:hover {
 .margin_top90 {
     margin-top: 90px;
 }
-.image {
-    width: 350px; /* Szerokość obrazu */
-    height: 350px; /* Wysokość obrazu */
-    object-fit: cover; /* Przycięcie i dopasowanie obrazu */
-    display: block;
-    margin: 0 auto; /* Opcjonalne wyśrodkowanie */
+.product-card img {
+    width: 100%; /* Dopasowanie szerokości obrazów do kontenera */
+    height: 200px; /* Stała wysokość obrazów */
+    object-fit: cover; /* Przycięcie obrazów, aby zachować proporcje */
+    border-radius: 5px; /* Opcjonalne zaokrąglenie narożników */
+}
+
+
+/* Ensure uniform card size in PRODUCTS section */
+.products-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px; /* Fixed width */
+    height: 400px; /* Fixed height */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Change header colors to blue */
+h1, h2, h3, h4, h5, h6 {
+    color: blue !important;
 }
