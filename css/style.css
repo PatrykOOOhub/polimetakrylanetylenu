@@ -992,8 +992,13 @@ a:hover {
 }
 
 
-/* copyright section end */
+
 
 .margin_top90 {
     margin-top: 90px;
 }
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px; 
