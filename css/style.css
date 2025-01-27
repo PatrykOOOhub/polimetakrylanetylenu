@@ -583,6 +583,11 @@ a:hover {
     display: block;
 }
 
+.gallery_section .image {
+    width: 100%;
+    height: 300px;    /* Możesz zmienić tę wysokość np. na 250px czy 350px */
+    object-fit: cover; 
+
 .box_main:hover .house_icon .image_
 
 
